@@ -1,0 +1,14 @@
+{
+  "ownerNumber": ["0@s.whatsapp.net","62882250664733@s.whatsapp.net","6288225066473@s.whatsapp.net"],
+  "ownerName": ["Rzx Gamz"],
+  "botName": "Rzx Bot",
+  "sessionName": "session-md",
+  "pathimg": "./media/image.jpg",
+  "pathimg2": "./media/rzx.png",
+  "gamewaktu": 100,
+  "limitCount": 25,
+  "gcount": {
+	"prem": 35,
+	"user": 15
+  }
+}
