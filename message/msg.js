@@ -192,7 +192,7 @@ module.exports = async(conn, msg, m, setting) => {
  		    }
 		}
 		const reply = (teks) => {
-			conn.sendMessage(from, { text: teks }, { quoted: msg, contextInfo: { externalAdReply: { title: "RZXBOT", body: "@RzxGamz", previewType: "PHOTO", thumbnailUrl: fs.readFileSync(setting.pathimg2), sourceUrl: `` }}})
+			conn.sendMessage(from, { text: teks }, { quoted: msg, contextInfo: { externalAdReply: { title: "ʀᴢx ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ", body: "</ RzxGamz >", previewType: "PHOTO", thumbnailUrl: fs.readFileSync(setting.pathimg2), sourceUrl: `` }}})
 		}
 		const textImg = (teks) => {
 			return conn.sendMessage(from, { text: teks, jpegThumbnail: fs.readFileSync(setting.pathimg2) }, { quoted: msg })
