@@ -27,6 +27,7 @@
     "fs": "0.0.1-security",
     "g-i-s": "^2.1.6",
     "hxz-api": "^1.0.1",
+    "jimp": "^0.16.1",
     "kotz-api": "^1.0.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.34",
